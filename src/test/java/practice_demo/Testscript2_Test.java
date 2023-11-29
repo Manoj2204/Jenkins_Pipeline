@@ -15,5 +15,13 @@ public class Testscript2_Test
 	{
 		System.out.println("regression-2");
 	}
+	
+	@Test(groups = "regression")
+	public void test3()
+	{
+		System.out.println("regression-3");
+	}
+	
+	
 
 }
